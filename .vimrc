@@ -3,7 +3,9 @@ set noswapfile
 
 set term=xterm-256color
 set background=dark
-"colorscheme desert
+colorscheme  desert
+syntax on
+
 
 "status line
 set laststatus=2
@@ -13,6 +15,7 @@ set statusline+=%1*\ %m%r
 set statusline+=%=                                "separator between left and right
 set statusline+=%1*\ %-20((%P)%L\ \ %5l,%-3c%)
 
+set clipboard=unnamed
 
 "line number
 set number
